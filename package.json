@@ -1,0 +1,25 @@
+{
+  "name": "react-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "fbjs": "^1.0.0",
+    "next": "^7.0.2",
+    "paper": "^0.11.8",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-reconciler": "^0.17.0-alpha.0",
+    "scheduler": "^0.11.0-alpha.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "0.85.0"
+  }
+}
